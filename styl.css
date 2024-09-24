@@ -1,8 +1,29 @@
 div#logo {
-    background-color: red;
+    background-color: black;
     color: white;
     font: 50px arial;
     text-align: center;
     text-shadow: silver 4px 4px 8px;
     border: double silver;
-    letter-spacing: 15px;}
+    letter-spacing: 15px;
+
+    /* Add animation and transition effects */
+    animation: logoAnimation 5s infinite;
+    transition: color 2s ease-in-out;
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+div#logo:hover {
+    color: #ff69b4; /* Change text color on hover */
+}
