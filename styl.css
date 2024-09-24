@@ -6,8 +6,6 @@ div#logo {
     text-shadow: silver 4px 4px 8px;
     border: double silver;
     letter-spacing: 15px;
-
-    /* Add animation and transition effects */
     animation: logoAnimation 5s infinite;
     transition: color 2s ease-in-out;
 }
@@ -25,5 +23,5 @@ div#logo {
 }
 
 div#logo:hover {
-    color: #ff69b4; /* Change text color on hover */
+    color: #ff69b4;
 }
